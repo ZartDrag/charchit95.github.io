@@ -1,6 +1,13 @@
 body{
     background-color: black;
 }
+
+.home-top{
+    padding-top: 210px;
+    padding-bottom: 210px;
+
+}
+
 .about-me-text{
     font-size: 28px;
     margin-top: 100px;
@@ -11,7 +18,11 @@ body{
     border-radius: 50%;
     left: 50%;
     transform: translateX(60%);
-    margin-top: 50px;
+    margin-top: 20px;
+}
+
+.mail-me{
+    padding-left: 280px;
 }
 
 .fa{
@@ -20,5 +31,21 @@ body{
 
 .internship-img{
     border-radius: 50%;
+    border-style: solid;
+    border-color: black;
     width: 10vw;
+}
+.prog-lang{
+    background-color: rgb(255, 255, 255);
+    margin-top: 110px;
+    font-size: 20px;
+}
+
+.lang-img{
+    width: 9vw;   
+}
+
+.lang-img-java{
+    margin-bottom: 70px;
+    width: 7vw;
 }

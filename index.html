@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -32,27 +33,38 @@
 
 <body>
 
+    <div class="bouncing-loader" id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    </div>
+
+
     <!--Navbar start-->
-
+    
+    
+  <div class="navbar-fixed">
     <nav>
-        <div class="nav-wrapper black">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down black-text">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#hackathons">Internships</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>
-        </div>
+      <div class="nav-wrapper black">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="https://charchit95.github.io" class="brand-logo">Charchit Bansal</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#internship">Internships</a></li>
+            <li><a href="#known">Languages Known</a></li>
+        </ul>
+      </div>
     </nav>
-
+  </div>
+    
     <ul class="sidenav" id="mobile-demo">
         <li><a href="#home">Home</a></li>
         <li><a href="#about-me">About Me</a></li>
-        <li><a href="#hackathons">Internships</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#resume">Resume</a></li>
+        <li><a href="#internship">Internships</a></li>
+        <li><a href="#known">Languages Known</a></li>
+        
     </ul>
 
     <!--Navbar end-->
@@ -60,115 +72,109 @@
 
     <!--Content body-->
 
-    <div class="row">
-        <h1 class="white-text header center">Hi, I am Charchit Bansal</h1>
-        <div class="row">
+    <div class="row" id="home">
+        <h1 class="white-text header center home-top">Hi, I am Charchit Bansal</h1>
+        <div class="row" id="about-me">
             <div class="col s12 m6 l6">
                 <p class="white-text left about-me-text">
                     I am a full stack developer. <br>
-                    I have attended one nationwide hackathon over the course of three years<br> and I have gained
-                    most of my technical expertise from this hackathon.<br>
-                    I am pretty lazy and strive for automating most of my work so that I can survive with minimum energy
-                    expenditure.
+                    I know to code in some languages like c, c++, python, html, css, js, etc.<br> I can create any type of website using WORDPRESS.
+                    I can edit any theme and customize accourding to your convienece.
+                    If you want a website just contact me.
                 </p>
-                <div class="row">
-                    <div class="col s2 m2 l2 offset-s2 offset-m2 offset-l2">
-                        <a href="#" class="fa fa-facebook"></a>
-                    </div>
-                    <div class="col s2 m2 l2 offset-s2 offset-m2 offset-l2">
-                        <a href="#" class="fa fa-facebook"></a>
-                    </div>
-                    <div class="col s2 m2 l2 offset-s2 offset-m2 offset-l2">
-                        <a href="#" class="fa fa-facebook"></a>
-                    </div>
+    <div class="mail-me">
+        <a class="btn-floating btn-large waves-effect waves-light pulse" href="mailto:charchit95@gmail.com"><i class="material-icons">mail</i></a>
+        <a class="btn-floating btn-large waves-effect waves-light pulse" href="tel:8586816038"><i class="material-icons">call</i></a>
+        <a class="btn-floating btn-large waves-effect waves-light pulse" href="https://goo.gl/maps/DwbUeKS7yd5B6yVDA"><i class="material-icons">map</i></a>
+    </div>
+                
+            </div>
+
+            <div class="col s12 m6 l6 hide-on-down">
+                <img class="display-img"
+                    src="C:\Users\Gigabyte-PC\Desktop\My Captain\WEB DEVELOPMENT\MY PORTFOLIO\charchit95.github.io\my-image.jpg">
                 </div>
             </div>
-            <div class="col s12 m6 l6 hide-on-med-and-down">
-                <img class="display-img"
-                    src="https://lh3.googleusercontent.com/proxy/nD6o-6xfEZyP7FNM0zplIGxNsCfWXPZ-EpgWKeBEb0hRlo9KGX5pKV9gC-ELdKkVC5QiOf7riRy07kmycNRnDEDF2GhSbOjGjw">
-            </div>
-        </div>
     </div>
-    <div class="card-panel white">
+   
+    <div class="card-panel green" id="internship">
         <h3 class="black-text center">Internships</h3>
         <div class="row">
             <div class="col s12 m4 l4 center">
                 <img class="internship-img"
-                    src="https://images.vexels.com/media/users/3/127450/isolated/preview/540a7b87109d0e889edb56687a6f9ce4-climber-camping-badge-by-vexels.png">
+                    src="https://blog.hubspot.com/hs-fs/hubfs/image9-2.jpg?width=432&name=image9-2.jpg">
                 <h4>Company: </h4>
-                <p>Company INC.</p>
+                <p>GOOGLE LTD.</p>
                 <h4>Duration: </h4>
-                <p>X Months</p>
+                <p>0 Days</p>
                 <h4>Responsibility: </h4>
-                <p>Power</p>
+                <p>No Responsibility</p>
             </div>
             <div class="col s12 m4 l4 center">
                 <img class="internship-img"
-                    src="https://images.vexels.com/media/users/3/127450/isolated/preview/540a7b87109d0e889edb56687a6f9ce4-climber-camping-badge-by-vexels.png">
+                    src="https://img.maximummedia.ie/her_ie/eyJkYXRhIjoie1widXJsXCI6XCJodHRwOlxcXC9cXFwvbWVkaWEtaGVyLm1heGltdW1tZWRpYS5pZS5zMy5hbWF6b25hd3MuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDE1XFxcLzA4XFxcLzA2MTUzOTM0XFxcL2FtYXpvbi5qcGdcIixcIndpZHRoXCI6NzAwLFwiaGVpZ2h0XCI6MzcwLFwiZGVmYXVsdFwiOlwiaHR0cHM6XFxcL1xcXC93d3cuaGVyLmllXFxcL2Fzc2V0c1xcXC9pbWFnZXNcXFwvaGVyXFxcL25vLWltYWdlLnBuZz9pZD1iNmY4NGQ2MjdiNDExNGYwMGY1MFwiLFwib3B0aW9uc1wiOltdfSIsImhhc2giOiIyOWE3MjkwZmU5M2Q3NzY2ZTdhNjdiMjlkZDA2NzY2YjE4NDA2NmNhIn0=/amazon.jpg">
                 <h4>Company: </h4>
-                <p>Company INC.</p>
+                <p>AMAZON LTD.</p>
                 <h4>Duration: </h4>
-                <p>X Months</p>
+                <p>0 Days</p>
                 <h4>Responsibility: </h4>
-                <p>Power</p>
+                <p>No Responsibility</p>
             </div>
             <div class="col s12 m4 l4 center">
                 <img class="internship-img"
-                    src="https://images.vexels.com/media/users/3/127450/isolated/preview/540a7b87109d0e889edb56687a6f9ce4-climber-camping-badge-by-vexels.png">
+                    src="https://gumlet.assettype.com/afaqs%2Fimport%2Fall%2Fnews%2Fimages%2Fnews_story_grfx%2F2015%2F44368_1_home_big.jpg?format=webp&w=400&dpr=2.6">
                 <h4>Company: </h4>
-                <p>Company INC.</p>
+                <p>FLIPKART LTD.</p>
                 <h4>Duration: </h4>
-                <p>X Months</p>
+                <p>0 Days</p>
                 <h4>Responsibility: </h4>
-                <p>Power</p>
+                <p>No Responsibility</p>
             </div>
         </div>
-        
 
-    </div>
-    <div class="card-panel green">
-        <h3 class="black-text center">Internships</h3>
+
+    
+    <!--Proraming Languages-->
+    <div class="prog-lang" id="known">
+        <h1 class="black-text center" style="font-size:3vw;">Some Languages Which I Am Familiar with</h1>
         <div class="row">
-            <div class="col s12 m4 l4 center">
-                <img class="internship-img"
-                    src="https://images.vexels.com/media/users/3/127450/isolated/preview/540a7b87109d0e889edb56687a6f9ce4-climber-camping-badge-by-vexels.png">
-                <h4>Company: </h4>
-                <p>Company INC.</p>
-                <h4>Duration: </h4>
-                <p>X Months</p>
-                <h4>Responsibility: </h4>
-                <p>Power</p>
+            <div class= "col s2 m2 l2">
+                <img class="lang-img" src="https://cdn.iconscout.com/icon/free/png-256/c-programming-569564.png" alt="C">
             </div>
-            <div class="col s12 m4 l4 center">
-                <img class="internship-img"
-                    src="https://images.vexels.com/media/users/3/127450/isolated/preview/540a7b87109d0e889edb56687a6f9ce4-climber-camping-badge-by-vexels.png">
-                <h4>Company: </h4>
-                <p>Company INC.</p>
-                <h4>Duration: </h4>
-                <p>X Months</p>
-                <h4>Responsibility: </h4>
-                <p>Power</p>
+            <div class="col s2 m2 l2">
+                <img class="lang-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="C++">
             </div>
-            <div class="col s12 m4 l4 center">
-                <img class="internship-img"
-                    src="https://images.vexels.com/media/users/3/127450/isolated/preview/540a7b87109d0e889edb56687a6f9ce4-climber-camping-badge-by-vexels.png">
-                <h4>Company: </h4>
-                <p>Company INC.</p>
-                <h4>Duration: </h4>
-                <p>X Months</p>
-                <h4>Responsibility: </h4>
-                <p>Power</p>
+            <div class="col s2 m2 l2">
+                <img class="lang-img-java" src="https://www.stickpng.com/assets/images/58480979cef1014c0b5e4901.png" style=padding-left:6% alt="Java">    
             </div>
-        </div>
-
+            <div class="col s2 m2 l2">
+                <img class="lang-img" src="https://pluspng.com/img-png/logo-javascript-png-js-logo-png-512.png" alt="Java Script">
+            </div>
+            <div class="col s2 m2 l2">
+                <img class="lang-img" src="https://www.stickpng.com/assets/images/5847f5bdcef1014c0b5e489c.png" alt="HTML">
+            </div>
+            <div class="col s2 m2 l2">
+                <img class="lang-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" alt="Python">    
+            </div>
+    </div>
+    </div>
+    </div>
     <!--Content body end-->
 
-
-    <!--JavaScript at end of body for optimized loading-->
-
-
-
+    <!--JavaScript at end of body for optimized loading--> <!--Initializing for Javascripts-->
+   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </body>
+
+<!--Footer Start-->
+<div class="card-panel black footer-copyright">
+    <div class="container" style="color:white;">
+    
+    <a href="https://charchit95.github.io">© 2020 Charchit Bansal</a>
+    </div>
+  </div>
+</footer>
+<!--Footer End-->
 
 </html>
